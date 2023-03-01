@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+a {
+    color: black;
+}
+
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: rgb(255, 0, 0);
+    height: 10vh;
+    color: rgb(255, 241, 240);
+
+
+}
+
+header>* {
+    flex: 1
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.navbaritems {
+    list-style: none;
+    color: rgb(255, 240, 247);
+    font-size: large;
+display: flex;
+flex-direction: row;
+
+
+
+}
+.navbaritems li {
+    margin: 10px;
+}
+.navbaritems li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.hero {
+    height: 30vh;
+    background-color: orange;
+
+}
+
+.about-me-section {
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-section {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+
+
+
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+    height: 10vh;
+    background-color: rgb(226, 43, 156);
+
+
+
+}
+.small-area {
+    display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
