@@ -5,75 +5,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/style.css" >
     <title>Document</title>
 </head>
+<style>
+    .flex-container{
+        justify-content: center;
+        display: flex;
+        background-color: dodgerblue;
+        
+    }
+    .flex-container > div1{
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 10px;
 
-<body>
+    }
+    .flex-container> div2{
+        
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 10px;
+      
+    }
+    .flex-container>div3{
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    
+   
+    
+    
+</style>
+
+<body class="body">
 
     <header>
-        <h1>Emmanuel Gomez portfolio</h1>
+        <h1 class="name" >Emmanuel Gomez portfolio</h1>
         <nav>
-            <ul class="navbaritems">
-                <li><a href="#about-me">about me</a></li>
-                <li><a href="#project">project</a></li>
+            <div class="flex-container">
+                <div1 style="padding-right: 20px;;"><a href="#about-me">About Me</a></div1>
+                <div2 style="padding-right: 20px;"><a href="#project">Project</a></div2>
 
-                <li><a href="#contact">contact</a></li>
-            </ul>
+                <div3 style="padding-right: 20px;"><a href="#contact-info">Contact</a></div3>
+            </div>
         </nav>
     </header>
-    <div class="hero"> </div>
-    <section id="about-me" class="about-me-section">
-
-        <h2>about me</h2>
-        <p>I love to be near large body of water fresh or salt,very mechanically inclined ,I enjoy trouble
+    <div id="about-me" class="hero">
+        <h2>About Me</h2>
+        <p style="text-align: center;">I love to be near large body of water fresh or salt,very mechanically inclined ,I
+            enjoy trouble
             shooting,enjoy shooting guns and koi fish are awesome...!</p>
+    </div4>
 
-    </section>
     <section id="project" class="project-section">
         <h2>
-            projects
+
         </h2>
-        <div class="section-row">
+
+
+
+
+        <div5>
+            <a href=" https://github.com/Project-Faust/little-big-sales" class="card"></a>
+            <img src="./assets/firstprojecttscreenshot.png" alt="Avatar" style="width: 30%; padding-top: 30px;">
+            <H2><b>
+
+                    First Project
+                </b> </H2>
+            <p>
+                my first ever group project was a page to search for video games accross the country and get the local
+                currency exchnage using two different API one for the currency
+                exchange and the other for video game search ,attached is a link and a screen shot the the page that as
+                agroup we wre able to work threw issues and
+                succesfuly compleating a fully mobile accesible
+
+            </p>
+
+
+        </div5>
+        <div6>
 
             <a href="https://github.com/mannyak13619" class="card">
-                <img src="on the water.jpeg" alt="Avatar" style="width: 75%;">
+                <img src="./assets/onthewater.jpeg" alt="Avatar" style="width: 30%; padding-top: 300px;">
 
-                <div class="conatainer">
+                <div7>
                     <h4><b>boatting</b></h4>
                     <p>on the water ,it always makes me happy</p>
 
-                </div>
-            </a>
-            <div class="small-area">
-                <div class="card">
-                    <img src="great view.jpeg" alt="Avatar" style="width: 75%;">
+                </div7>
 
-                    <div class="conatainer">
-                        <h4><b>traveling</b></h4>
-                        <p>visiting new places are amazing experiences</p>
-                    </div>
+                <div8 class="div8">
+                    <div9>
+                        <img src="./assets/greatview.jpeg" alt="Avatar" style="width: 30%; padding-top: 300px;">
 
-                </div>
-                <div class="card">
-                    <img src="big cathes.jpeg" alt="Avatar" style="width: 75%;">
+                        <div10>
+                            <h4><b>traveling</b></h4>
+                            <p>visiting new places are amazing experiences</p>
+                            <h1>&#128526;</h1>
+                        </div10>
 
-                    <div class="conatainer">
-                        <h4><b>fishing</b></h4>
-                        <p>catch and release always unless i was in survival mode LOL</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div9>
+                    <div12>
+                        <img src="./assets/bigcathes.jpeg" alt="Avatar" style="width: 30%;">
+
+                        <div11>
+                            <h4><b>fishing</b></h4>
+                            <p>catch and release always unless i was in survival mode LOL</p>
+                        </div11>
+                    </div12>
+                </div8>
+        </div6>
 
 
     </section>
     <footer id="contact-info">
 
-        <ul>
-            <li>e-mail</li>
-            <li>git hub</li>
-            <li>cell phone#</li>
+        <ul class="ul1">
+            <li>e-mail=emmanuelgomezrealpro@gmail.com</li>
+            <li>git hub= mannyak13619</li>
+            <li>cell phone# 980-240-3764</li>
         </ul>
 
 

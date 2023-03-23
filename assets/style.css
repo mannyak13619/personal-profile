@@ -1,0 +1,43 @@
+.name {
+ text-align: center;
+ font-family: cursive;
+ color: antiquewhite;
+ 
+}
+
+
+.hero {
+    text-align: center;
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: xx-large;
+    padding-top: 100px;
+    
+}
+.body{
+    background-image: url(matrix.webp);
+    
+}
+.div7{
+    text-align: center;
+    font-family: cursive;
+    color: antiquewhite;
+    padding-top: 300px;
+}
+.div8{
+    text-align: center;
+    font-family: cursive;
+    color: antiquewhite;
+}
+.ul1{
+    color: antiquewhite);
+}
+.project-section{
+    padding-top: 200px;
+}
+.card{
+    padding-top: 200px;
+    color: antiquewhite;
+}
+
+
